@@ -5,15 +5,15 @@ import WithState from "./Storage/WithState";
 import { useRef } from "react";
 
 export default function App() {
-  const ref = useRef(0);
-  console.log(ref);
+  // const ref = useRef("ref톺아보기!!!");
+  // console.log(ref);
 
   return (
     <>
       <WithState />
-      {/* <WithVar />
-      <RefUsing />
-      <Login /> */}
+      {/* <WithVar />*/}
+      {/*<RefUsing />*/}
+      {/*<Login /> */}
     </>
   );
 }
