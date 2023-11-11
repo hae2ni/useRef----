@@ -4,18 +4,17 @@ import { useEffect, useRef, useState } from "react";
 export default function RefUsing() {
   const [count, setCount] = useState(1);
   // const [renderCount, setRenderCount] = useState(1);
-  //   const renderCount = useRef(1);
+  // const renderCount = useRef(0);
 
-  //무한루프
   // useEffect(() => {
   //   console.log("렌더링");
   //   setRenderCount(renderCount + 1);
   // });
 
-  //   useEffect(() => {
-  //     renderCount.current = renderCount.current + 1;
-  //     console.log("렌더링 수", renderCount.current);
-  //   });
+  // useEffect(() => {
+  //   console.log("렌더링 수", renderCount.current);
+  //   renderCount.current = renderCount.current + 1;
+  // });
 
   return (
     <>
