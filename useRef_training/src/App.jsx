@@ -6,8 +6,8 @@ import { useRef } from "react";
 
 export default function App() {
   const ref = useRef(0);
-
   console.log(ref);
+
   return (
     <>
       <WithState />
